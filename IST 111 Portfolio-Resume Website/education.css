@@ -1,0 +1,16 @@
+/*
+add spacing between sections
+ */
+section {
+    padding: 1.5rem 0rem 1.5rem 0rem;
+}
+article {
+    padding: 0.3rem 0rem 0.3rem 0rem;
+}
+
+h5, h2 {
+    font-weight: bold;
+}
+.sub-header {
+    color: #11427E
+}

@@ -1,0 +1,10 @@
+/*
+add spacing between sections
+ */
+section, article {
+    padding: 1.5rem 0rem 1.5rem 0rem;
+}
+
+h2 {
+    font-weight: bold;
+}
