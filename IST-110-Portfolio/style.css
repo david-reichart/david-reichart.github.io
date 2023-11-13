@@ -43,6 +43,13 @@ li {
 header {
     position: sticky;
 }
+img {
+    width: 50vmax;
+    height: auto;
+}
+figcaption {
+    font-style: italic;
+}
 #top-header {
     padding-top: 2rem;
     text-align: center;
