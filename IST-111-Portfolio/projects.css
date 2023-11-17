@@ -1,4 +1,10 @@
+body {
+    text-align: center;
+}
+h1 {
+    text-align: left;
+}
 .project-image {
-    width: 40%;
+    width: 80%;
     height: auto;
 }
