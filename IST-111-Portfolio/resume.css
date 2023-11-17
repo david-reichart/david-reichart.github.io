@@ -1,6 +1,12 @@
 /*
 add spacing between sections
  */
+* {
+    color: #ffffff !important;
+}
+nav > i {
+
+}
 section, article {
     padding: 1.5rem 0rem 1.5rem 0rem;
 }

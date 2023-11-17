@@ -11,6 +11,12 @@ article {
 h5, h2 {
     font-weight: bold;
 }
-.sub-header {
-    color: #11427E
+
+article {
+    color: white;
+    padding: 2rem;
+    background: #2b2b2b;
+    border-radius: 10px;
+    box-shadow: -1rem 0 1rem #000000;
+    margin-bottom: 2rem;
 }

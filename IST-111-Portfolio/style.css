@@ -6,6 +6,7 @@
     font-family: sans-serif;
     font-weight: normal;
     scroll-behavior: smooth;
+    color: #ffffff;
 }
 a {
     color: inherit;
@@ -19,7 +20,7 @@ main {
     padding: 2rem;
 }
 body {
-    background: #ffffff;
+    background: #1b1b1b;
 }
 
 /*
@@ -30,28 +31,42 @@ site navigation
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding: 1rem;
-    color: #ffffff
+    padding: 2rem;
+    color: #ffffff;
+
 }
 .top-nav i {
-    color: #297be0;
+    color: #00d9b3 !important;
 }
+.top-nav > a {
+    font-weight: 500;
+    font-size: 24px;
+}
+
 
 /*
 header styling
  */
 h1 {
     font-size: 30px;
+    color: #2c73d2;
 }
 h2 {
     font-size: 24px;
+    color: #009ce9;
 }
 h3 {
     font-size: 20px;
+    color: #00bedb;
 }
 h4 {
     font-size: 14px;
     font-style: italic;
+    color: #00d9b3;
+}
+
+h5 {
+    color: #00d9b3;
 }
 
 /*
