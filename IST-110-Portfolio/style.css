@@ -9,18 +9,34 @@
 }
 html {
     scroll-behavior: smooth;
+    height: 100%;
+    min-height: 100% !important;
 }
 body {
     display: flex;
+    background: #ffffff;
 }
 section {
     padding: 1rem;
     margin: 1rem;
     border-radius: 10px;
+    z-index: 10;
 }
 article  {
     padding: 1rem;
     border-radius: 10px;
+    background: #1e407c;
+    margin: 1rem;
+    color: #ffffff;
+    box-shadow: -10px 5px 50px #000000;
+    transition: 0.3s;
+}
+article:hover {
+    box-shadow: -10px 5px 200px #000000;
+    transform: translateY(-20px) translateX(-20px);
+}
+article h2 {
+    color: #96BEE6;
 }
 a {
     color: inherit;
@@ -30,11 +46,11 @@ h1, h2, h3, h4, h5 {
     font-weight: 600;
 }
 h1 {
-    font-size: 26px;
+    font-size: 40px;
+    margin-bottom: 1rem;
 }
 h2 {
-
-    font-size: 20px;
+    font-size: 30px;
 }
 li {
     margin-left: 1rem;
@@ -143,6 +159,13 @@ figcaption {
     display: none;
     width: 120px;
 }
+.side-graphic {
+    margin-right: -120px;
+}
+.side-graphic img {
+    height: 100%;
+    width: 20rem;
+}
 
 @media only screen and (max-width: 600px) {
     .side-nav {
@@ -194,5 +217,8 @@ figcaption {
     }
     .nav-links li:nth-child(8):hover ~ .active {
         top: 86.5%;
+    }
+    .side-graphic {
+        display: none;
     }
 }
