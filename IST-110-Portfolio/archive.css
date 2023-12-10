@@ -1,0 +1,17 @@
+article {
+    margin: 2rem;
+}
+article section {
+    margin: 0.5rem;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+}
+
+iframe {
+    margin-bottom: 50px;
+    height: 300px;
+    border-radius: 10px;
+    width: 100%;
+}
